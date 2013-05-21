@@ -11,7 +11,15 @@ I am re-coding / porting the problem sets into Erlang and adding them here
 
 ---------------Update 5/21 -------------
 Added fizzbuzz.erl (checks if an argument is a multiple of 3 or 5)
-added sums.erl. sum/1 function will sum all integers between 1 and the argument. sum/2 adds all integers 
+
+Added sums.erl. sum/1 function will sum all integers between 1 and the argument. sum/2 adds all integers 
 between the arguments as long as the first is the smaller. For example sum(1,3) returns 6. sum (3,1) is an error.
 
+both of the above are exercises from the OReilly Erlng Programming book
+
+Added caesar.erl which will take a string and a key and "encrypt" the string by adding the key value as an offset.
+For example, if caesar:main("A", 2). is entered, "C" is returned.  The function also decrypts
+ways to improve this: 1) pass in a file 2) allow a user to pass a parameter/flag to encrypt or decrypt along with the
+string & key
+This was part of a CS50x problem set through edx I completed in C
 -----------------------------------------
