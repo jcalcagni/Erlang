@@ -1,14 +1,16 @@
--module(sums).
--export([sum/1, sum/2]).
+-module(fizzbuzz).
 
-sum(N) when N == 0 -> 0;
-sum(N) when N > 0 -> N + sum(N - 1).
+-export([check/1]).
 
-sum(N, M) when N < M -> 
-  N + sum(N + 1, M);
-sum(N, M) when N == M ->
-  N;
-sum(N, M) when N > M ->
-  {error, "N > M" }.
-
+check(N) ->
+  if
+    N rem 15 == 0 ->
+      fizzbuzz;
+    N rem 5 == 0 ->
+      buzz;
+    N rem 3 == 0 ->
+      fizz;
+    true ->
+      io:format("~p is not a multiple of 3 or 5. ~n", [N])
+  end.
 
