@@ -20,6 +20,8 @@ both of the above are exercises from the OReilly Erlng Programming book
 Added caesar.erl which will take a string and a key and "encrypt" the string by adding the key value as an offset.
 For example, if caesar:main("A", 2). is entered, "C" is returned.  The function also decrypts
 ways to improve this: 1) pass in a file 2) allow a user to pass a parameter/flag to encrypt or decrypt along with the
-string & key
-This was part of a CS50x problem set through edx I completed in C
+string & key value.  
+
+this was an assignment for CS50x (edx) that I ported to erlang from C
+
 -----------------------------------------
