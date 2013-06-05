@@ -6,9 +6,20 @@ Code practice as I learn to program with Erlang
 
 -Note -- I have completed the Edx.org course CS50x (Harvard) Intro to Computer Science
 This course uses C (with some PHP at the end) for lectures and problem sets.
-
 I am re-coding / porting the problem sets into Erlang and adding them here
 
+-------------Update 6/5-----------------
+Added server.erl, which is a template from ch5 of the O'Reilly book demo for server processes.
+Added ch5db.erl, which is exercise 1 from ch5. The idea is to take the functionality of the pseudo-db (using lists) and 
+  put it in a server process.  The functions seems to be very close/duplicates.  Refactor?
+
+-------------Update 5/23-----------------
+Added ch3lists.erl (ex 3-5) filter, reverse, concatenate & flatten lists
+
+Added ch3db.erl (ex 3-4) simple pseudo-database using lists : new, write, read, match, delete, destroy data
+
+Added ch3sort.erl (ex 3-6) quick sort & merge sort using lists 
+-----------------------------------------
 ---------------Update 5/21 -------------
 Added fizzbuzz.erl (checks if an argument is a multiple of 3 or 5)
 
@@ -24,11 +35,4 @@ string & key value.
 
 this was an assignment for CS50x (edx) that I ported to erlang from C
 
------------------------------------------
--------------Update 5/23-----------------
-Added ch3lists.erl (ex 3-5) filter, reverse, concatenate & flatten lists
-
-Added ch3db.erl (ex 3-4) simple pseudo-database using lists : new, write, read, match, delete, destroy data
-
-Added ch3sort.erl (ex 3-6) quick sort & merge sort using lists 
 -----------------------------------------
